@@ -61,3 +61,39 @@ interface HeroProps extends Section {
   subheading: string;
   subtext: string;
 }
+
+type SearchProps = {
+  query: string;
+  setQuery: (q: string) => void;
+  sortOrder: string;
+  setSortOrder: (q: string) => void;
+};
+
+type ProductCardProps = {
+  name: string;
+  description: string;
+  price: string;
+  imgUrl: string;
+};
+
+type Products = {
+  id: number;
+  title: string;
+  description: string;
+  price: string;
+  discountPercentage: number;
+  rating: number;
+  stock: number;
+  brand: string;
+  category: string;
+  thumbnail: string;
+  images: string[];
+};
+
+type ProjectCardProps = {
+  id?: number;
+  title: string;
+  description: string;
+  stack: string[];
+  imgUrl: string;
+};

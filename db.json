@@ -1,0 +1,50 @@
+[
+  {
+    "createdAt": "2024-01-05T14:44:31.373Z",
+    "image": "https://images.unsplash.com/photo-1549716679-95380658d5cd?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    "title": "Creative Canvas",
+    "description": "Developed an interactive online art gallery using React and Three.js for immersive 3D experiences. Users can explore and appreciate various artworks in a virtual environment.",
+    "stack": ["React", "Three.js", "TypeScript"],
+    "id": "1"
+  },
+  {
+    "createdAt": "2024-01-05T14:44:31.373Z",
+    "image": "https://images.unsplash.com/photo-1586880244543-0528a802be97?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    "title": "Shopify Plus",
+    "description": "Implemented a high-performance e-commerce platform using Next.js and Vite for fast page loading. The application supports advanced features such as real-time product updates and seamless checkout.",
+    "stack": ["Next.js", "Vite", "React", "Redux"],
+    "id": "2"
+  },
+  {
+    "createdAt": "2024-01-05T14:44:31.373Z",
+    "image": "https://images.unsplash.com/photo-1503676260728-1c00da094a0b?q=80&w=2022&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    "title": "LearnHub",
+    "description": "Designed and developed a scalable educational platform with Next.js, providing a smooth learning experience with interactive lessons and quizzes.",
+    "stack": ["Next.js", "React", "Tailwind CSS"],
+    "id": "3"
+  },
+  {
+    "createdAt": "2024-01-05T14:44:31.373Z",
+    "image": "https://images.unsplash.com/photo-1487014679447-9f8336841d58?q=80&w=1905&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    "title": "Personal Portfolio",
+    "description": "Created a personal portfolio website using Vite and React Three Fiber to showcase projects and skills. The website features a visually appealing design and smooth transitions.",
+    "stack": ["Vite", "React", "React Three Fiber"],
+    "id": "4"
+  },
+  {
+    "createdAt": "2024-01-05T14:44:31.373Z",
+    "image": "https://images.unsplash.com/photo-1630260643564-7f9c9c140682?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    "title": "WeatherWise",
+    "description": "Developed a fast and intuitive weather application using React and Vite, providing real-time weather updates and forecasts with a user-friendly interface.",
+    "stack": ["React", "Vite", "Styled Components"],
+    "id": "5"
+  },
+  {
+    "createdAt": "2024-01-05T14:44:31.373Z",
+    "image": "https://images.unsplash.com/photo-1611162617213-7d7a39e9b1d7?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    "title": "ConnectX",
+    "description": "Implemented a responsive social media dashboard using Next.js, offering users an engaging platform to connect and share updates.",
+    "stack": ["Next.js", "React", "Vercel"],
+    "id": "6"
+  }
+]

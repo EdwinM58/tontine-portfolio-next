@@ -25,7 +25,7 @@ const nextConfig = {
     ],
   },
   env: {
-    projectId: "h9ejl8k0",
+    projectId: "k8ench2k",
     dataset: "production",
     apiVersion: "2023-05-03",
   },

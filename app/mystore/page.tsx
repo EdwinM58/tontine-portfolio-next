@@ -1,23 +1,17 @@
 "use client";
 
-import React, {
-  useMemo,
-  useEffect,
-  useState,
-  FormEvent,
-  MouseEventHandler,
-} from "react";
+import React, { useMemo, useEffect, useState } from "react";
 // import products from "../db.json";
 import Image from "next/image";
-import { motion } from "framer-motion";
 import Search from "../_components/Search";
 
 const MyStorePage = () => {
-  const [hovered, setHovered] = useState<boolean>(true);
+  // Define component state
   const [query, setQuery] = useState<string>("");
   const [sortOrder, setSortOrder] = useState<string>("lowToHigh");
   const [products, setProducts] = useState<Products[]>([]);
 
+  // Fetch data on initial render
   useEffect(() => {
     const fetchData = async () => {
       const response = await fetch("https://dummyjson.com/products");
@@ -29,6 +23,7 @@ const MyStorePage = () => {
     fetchData();
   }, []);
 
+  // Memoize filtered products and asign value based on query and product state change
   const filteredProducts = useMemo(() => {
     return products.filter(
       (product) =>
@@ -39,6 +34,7 @@ const MyStorePage = () => {
     );
   }, [query, products]);
 
+  // Memoize sorted products
   const sortedProducts = useMemo(() => {
     let sorted = [...filteredProducts];
     if (sortOrder === "lowToHigh") {
@@ -49,10 +45,10 @@ const MyStorePage = () => {
     return sorted;
   }, [filteredProducts, sortOrder]);
 
+  // Handlers to pass as props
   const handleQuery = (q: string) => {
     setQuery(q);
   };
-
   const handleOrder = (o: string) => {
     setSortOrder(o);
   };

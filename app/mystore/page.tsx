@@ -100,7 +100,6 @@ const ProductCard = ({
   price,
   imgUrl,
 }: ProductCardProps) => {
-  console.log(imgUrl);
 
   return (
     <div className=" drop-shadow-lg rounded-xl mx-auto bg-gray-300 flex flex-col justify-end w-64 h-[500px] mt-8">

@@ -68,26 +68,3 @@ const ProjectCard = ({
 };
 
 export default MyProjectsPage;
-
-{
-  /* <div className="max-w-full flex-col md:flex-row rounded-md bg-gray-300 flex mt-8 md:w-[450px] h-96 justify-between">
-<div className="relative flex flex-col p-4 rounded-md drop-shadow-md space-y-4 ">
-  <Image
-    src={imgUrl}
-    alt="project"
-    width={250}
-    height={200}
-    className="rounded-md "
-  />
-  <h1 className="text-xl font-bold">{title}</h1>
-  <p className="text-sm">{description}</p>
-  <div className="relative flex space-x-4 justify-end">
-    {stack.map((e) => (
-      <p className="font-bold" key={e}>
-        * {e}
-      </p>
-    ))}
-  </div>
-</div>
-</div> */
-}

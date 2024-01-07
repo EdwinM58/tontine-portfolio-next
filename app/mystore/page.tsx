@@ -14,15 +14,23 @@ const MyStorePage = () => {
   // Fetch product data on initial render
   useEffect(() => {
     const fetchData = async () => {
-      const response = await fetch("https://dummyjson.com/products");
-      const data = await response.json();
+      try {
+        const response = await fetch("https://dummyjson.com/products");
+        if (!response.ok) {
+          throw new Error(`HTTP error! Status: ${response.status}`);
+        }
 
-      setProducts(data.products);
+        const data = await response.json();
+        setProducts(data.products);
+      } catch (error: any) {
+        console.error("Error fetching data:", error.message);
+      }
     };
 
     fetchData();
   }, []);
 
+  
   // Memoize filtered products and asign value based on query and product state change
   const filteredProducts = useMemo(() => {
     return products.filter(

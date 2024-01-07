@@ -11,7 +11,7 @@ const MyStorePage = () => {
   const [sortOrder, setSortOrder] = useState<string>("lowToHigh");
   const [products, setProducts] = useState<Products[]>([]);
 
-  // Fetch data on initial render
+  // Fetch product data on initial render
   useEffect(() => {
     const fetchData = async () => {
       const response = await fetch("https://dummyjson.com/products");
